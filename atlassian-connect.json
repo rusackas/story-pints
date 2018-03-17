@@ -1,0 +1,28 @@
+{
+     "name": "Story Pints",
+     "description": "Atlassian Connect app",
+     "key": "com.rusackas.storypints",
+     "baseUrl": "https://df966643.ngrok.io",
+     "vendor": {
+         "name": "Evan Rusackas",
+         "url": "http://example.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "jiraIssueFields": [
+            {
+              "description": {
+                "value": "I will buy you THIS many beers"
+              },
+              "type": "number",
+              "name": {
+                "value": "Story Pints"
+              },
+              "key": "story-pints"
+            }
+          ]
+     }
+ }
